@@ -25,8 +25,8 @@ class KaratsubaAlgorithmLong {
 	static long karatsubaMul () {
 		// arm length
 		// set an environment
-		long num1 = 123456L;
-		long num2 = 654321L;
+		long num1 = 123456652658910962L;
+		long num2 = 65432185763776763L;
 		// call the helper recursively
 
 		return karatsubaMulHelper ( num1, num2 );
