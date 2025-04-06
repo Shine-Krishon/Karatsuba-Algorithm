@@ -1,4 +1,4 @@
-class KaratsubaAlgorithm {
+class KaratsubaAlgorithmLong {
 
 	static int numberOfDigits ( long num ) {
 		long numCopy = num;
@@ -25,10 +25,10 @@ class KaratsubaAlgorithm {
 	static long karatsubaMul () {
 		// arm length
 		// set an environment
-		long num1 = 12345676528276L;
-		long num2 = 6543216543127835L;
-		
+		long num1 = 123456L;
+		long num2 = 654321L;
 		// call the helper recursively
+
 		return karatsubaMulHelper ( num1, num2 );
 	}
 
